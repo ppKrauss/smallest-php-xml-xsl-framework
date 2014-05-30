@@ -1,0 +1,17 @@
+.Article H2 {
+	margin-bottom:.3em;
+	}
+
+.Article .Intro {
+	font-style:italic;
+	margin:1em;
+	}
+
+.Article UL {
+	margin:1em 0;
+	}
+
+.Article LI {
+	list-style:disc inside;
+	padding-left:1em;
+	}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<page>
+	<author>Michał Tatarynowicz</author>
+	<name>Website</name>
+	<article>
+		<title>Article Title</title>
+		<intro>
+			<p>Article intro</p>
+			<p>Article intro</p>
+			<p>Article intro</p>
+		</intro>
+		<body>
+			<p><a href="?test">Article body</a></p>
+			<p>Article body</p>
+			<p>Article body</p>
+			<ul>
+				<li>Lista A</li>
+				<li>Lista B</li>
+				<li>Lista C</li>
+			</ul>
+			<p><a href="https://code.google.com/p/smallest-php-xml-xsl-framework/">See here for an explanation</a> and <a href="https://code.google.com/p/smallest-php-xml-xsl-framework/source/browse/#svn/trunk">source code</a>.</p>
+		</body>
+	</article>
+</page>

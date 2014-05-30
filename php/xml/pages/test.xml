@@ -1,0 +1,13 @@
+<page>
+	<author>Michał Tatarynowicz</author>
+	<name>Website</name>
+	<article>
+		<title>Test</title>
+		<intro>
+			<p>Test</p>
+		</intro>
+		<body>
+			<p><b>Testing</b> <a href="?">link</a></p>
+		</body>
+	</article>
+</page>
