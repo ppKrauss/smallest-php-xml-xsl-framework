@@ -1,0 +1,46 @@
+003402.8861	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:116)
+003402.8881	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/SKIN1.xsl"
+003402.8953	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 3 element include
+003402.9091	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/SKIN1.xsl
+003402.9168	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/sputnik_article.xsl"
+003402.9244	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 4 element include
+003402.9343	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/sputnik_article.xsl
+003402.9425	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/sputnik_flash.xsl"
+003402.9498	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 5 element include
+003402.9578	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/sputnik_flash.xsl
+003402.9679	pt3u41ln	/xphp-simplest2/libs/xml.php:229	XSLTProcessor::transformToXml(): No stylesheet associated to this object
+052656.4538	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+052656.4777	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+052714.6246	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+052714.6462	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+052852.6139	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+052852.6344	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+052913.7809	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:116)
+052938.6120	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+052938.6299	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053120.0179	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+053120.0332	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053143.5473	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+053143.5668	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053239.6605	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput=show.xml): failed to open stream: No such file or directory
+053239.6874	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053502.4800	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput.xml): failed to open stream: No such file or directory
+053502.4935	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053839.7911	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinpu.xml): failed to open stream: No such file or directory
+053839.8181	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+053953.5642	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/xinput.xml): failed to open stream: No such file or directory
+053953.5837	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)
+054046.9123	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:116)
+054055.1259	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:116)
+054457.1078	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/SKIN1.xsl"
+054457.1200	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 3 element include
+054457.1566	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/SKIN1.xsl
+054457.1632	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/sputnik_article.xsl"
+054457.1991	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 4 element include
+054457.2056	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/sputnik_article.xsl
+054457.2591	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/var/www/xphp-simplest2/sputnik_flash.xsl"
+054457.2658	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): compilation error: file /var/www/xphp-simplest2/ line 5 element include
+054457.3045	pt3u41ln	/xphp-simplest2/libs/xml.php:228	XSLTProcessor::importStylesheet(): xsl:include : unable to load /var/www/xphp-simplest2/sputnik_flash.xsl
+054457.3318	pt3u41ln	/xphp-simplest2/libs/xml.php:229	XSLTProcessor::transformToXml(): No stylesheet associated to this object
+054955.8541	pt3u41ln	/xphp-simplest2/libs/xml.php:147	file_get_contents(xml/pages/indx.xml): failed to open stream: No such file or directory
+054955.8684	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:122)

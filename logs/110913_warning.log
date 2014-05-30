@@ -1,0 +1,6 @@
+100553.5990	pt3u41ln	/xphp-simplest2/libs/xml.php:143	file_get_contents(xml/pages/output=xml.xml): failed to open stream: No such file or directory
+100553.6185	pt3u41ln	/xphp-simplest2/index.php:23	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:118)
+112557.8479	pt3u41ln	/xphp-simplest2/libs/xml.php:143	file_get_contents(xml/pages/planilha.xml): failed to open stream: No such file or directory
+112557.8739	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:118)
+113844.0585	pt3u41ln	/xphp-simplest2/libs/xml.php:143	file_get_contents(xml/pages/planilha.xml): failed to open stream: No such file or directory
+113844.0714	pt3u41ln	/xphp-simplest2/index.php:21	Cannot modify header information - headers already sent by (output started at /var/www/xphp-simplest2/libs/error-handler.php:118)

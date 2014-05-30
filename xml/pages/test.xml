@@ -1,0 +1,13 @@
+<article type="sputnik" vesion="1.0">
+	<author>&#169;2008, 2011 Tatarynowicz et al</author>
+	<name>Website</name>
+
+	<title>Test</title>
+	<intro>
+		<p>Test</p>
+	</intro>
+	<body>
+		<p><b>Testing</b> <link this="index">link to index</link></p>
+	</body>
+</article>
+

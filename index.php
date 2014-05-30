@@ -1,23 +1,23 @@
 <?
+/*
+ * MAIN PAGE (HUB)
+ * Do appends and Render.
+ *
+ * index.php?pageName&otherParam=Val
+ *
+ */
+require 'conf.php';
+require_once('libs/error-handler.php');
+require_once('libs/xml.php');
+require_once('libs/page-state.php');
 
-require 'php/init.php';
+$xInput = new XML();
+$st = new PageStates();
 
-uses('xml', 'xml-xsl');
+$xInput->appendSiteMap();  		// to build skin
+$xInput->appendPageState($st->ALL); 	// supplay page-state with state array
+$xInput->appendPage($st->pageName);	// to build the main content
 
-$path = array_pop((array_keys($_GET)));
-if (!$path) $path = 'index';
-
-if (XML_XSL::Exists('pages/'.$path, 'default')) {
-
-	$site = xml('site');
-	$page = xml('pages/'.$path);
-
-	$page->append($site->extra);
-
-	print XML_XSL::RenderString($page->asXML(), 'default');
-}
-else {
-	die('404 Not found');
-}
-
+header("Content-Type: {$st->output_mime}");
+print $st->output_xinput? $xInput->xstr: $xInput->Render();  // Render or debug input
 ?>

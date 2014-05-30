@@ -1,9 +1,8 @@
 <?
-
-assert("defined('_DEBUG_')");
-assert("defined('DIR_ROOT')");
-assert("defined('DIR_LOGS')");
-
+/*
+ * ERROR-HANDLER AND ERROR'S HTML PRESENTATION
+ *
+ */
 function get_trace() {
 	
 	$trace = debug_backtrace();
@@ -44,6 +43,10 @@ function debug_code_snippet($file, $line, $before=3, $after=false) {
 	$lines = array_map('trim', explode('<br />', $code));
 	array_unshift($lines, '');
 	return array_slice($lines, max(0, $line-$before), $before+$after+1, true);
+}
+
+function error_handler_sp ($no, $str, $file, $line) {
+	die("\n<h1>ERROR (SP MODE)</h1>\n<pre>\nno=$no, \nstr=$str, \nfile=$file, \nline=$line\n</pre>");
 }
 
 function error_handler ($no, $str, $file, $line) {
@@ -133,4 +136,9 @@ JS;
     return true;
 }
 
+
+error_reporting(_DEBUG_? E_ALL ^ E_STRICT: 0);
+ini_set('display_errors', _DEBUG_);
+//init_assert(_DEBUG_);
+set_error_handler('error_handler'); //  PHP errors callback to  
 ?>

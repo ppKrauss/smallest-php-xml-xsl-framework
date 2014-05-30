@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<page>
-	<author>Michał Tatarynowicz</author>
+<article type="sputnik" vesion="1.0">
+	<author>&#169;2008, 2011 Tatarynowicz et al</author>
 	<name>Website</name>
-	<article>
+
 		<title>Article Title</title>
 		<intro>
 			<p>Article intro</p>
@@ -10,7 +10,7 @@
 			<p>Article intro</p>
 		</intro>
 		<body>
-			<p><a href="?test">Article body</a></p>
+			<p><link this="test">Article body</link></p>
 			<p>Article body</p>
 			<p>Article body</p>
 			<ul>
@@ -20,5 +20,5 @@
 			</ul>
 			<p><a href="https://code.google.com/p/smallest-php-xml-xsl-framework/">See here for an explanation</a> and <a href="https://code.google.com/p/smallest-php-xml-xsl-framework/source/browse/#svn/trunk">source code</a>.</p>
 		</body>
-	</article>
-</page>
+</article>
+

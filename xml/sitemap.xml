@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<site>
+	<extra>
+		<nav>
+			<link title="Homepage" this="index">
+				<nav>
+					<link title="Test2" this="test2" />
+					<link title="FORM" this="formHtm"/>
+					<link title="PNAS-sample" this="bmj_sample" />
+				</nav>
+			</link>
+			<link title="Test" this="test" />
+			<link title="BMJ-sample" this="bmj_sample">
+				<nav>
+					<link title="FORM" this="formHtm"/>
+					<link title="PNAS-sample" this="pnas_sample"/>
+				</nav>
+			</link>
+			<link title="PNAS-sample" this="pnas_sample" />
+			<back this="_form1" to="formHtm"/>
+
+		</nav>
+		<links label="External Links">
+			<link title="Google" url="http://www.google.com/" />
+			<link title="Yahoo" url="http://www.yahoo.com/" />
+		</links>
+		<credits label="Credits">
+			<link title="Pies" url="http://sputnik.pl/" />
+		</credits>
+	</extra>
+</site>
