@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * XML basic recording and manipulation. Restrict XML schema for site content and control.
  * This XML must use a predefined root tag (see initXML method).

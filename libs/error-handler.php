@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  * ERROR-HANDLER AND ERROR'S HTML PRESENTATION
  *

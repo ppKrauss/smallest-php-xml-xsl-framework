@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  * MAIN PAGE (HUB)
  * Do appends and Render.
